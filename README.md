@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/SimonRussia/Task1.svg?branch=master)](https://travis-ci.org/SimonRussia/Task1)
+[![Build Status](https://travis-ci.org/SimonRussia/lab06.svg?branch=master)](https://travis-ci.org/SimonRussia/lab06)
 ## Laboratory work VI
 
 Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**
@@ -10,7 +10,7 @@ $ open https://travis-ci.org
 ## Tasks
 
 - [X] 1. Авторизоваться на сервисе **Travis CI** с использованием **GitHub** аккаунта
-- [X] 2. Создать публичный репозиторий с названием **Task1** на сервисе **GitHub**
+- [X] 2. Создать публичный репозиторий с названием **lab06** на сервисе **GitHub**
 - [X] 3. Ознакомиться со ссылками учебного материала
 - [X] 4. Включить интеграцию сервиса **Travis CI** с созданным репозиторием
 - [X] 5. Получить токен для **Travis CLI** с правами **repo** и **user**
@@ -27,10 +27,10 @@ $ export GITHUB_TOKEN=<полученный_токен>
 ```
 
 ```ShellSession
-$ git clone https://github.com/${GITHUB_USERNAME}/lab04 Task1
-$ cd Task1
+$ git clone https://github.com/${GITHUB_USERNAME}/lab04 lab06
+$ cd lab06
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/Task1
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab06
 ```
 
 ```ShellSession
